@@ -1,0 +1,119 @@
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "1",
+      "plumberId": "1",
+      "date_created": 1667335933924,
+      "id": 1
+    },
+    {
+      "requestId": "2",
+      "plumberId": "2",
+      "date_created": 1667335953169,
+      "id": 2
+    },
+    {
+      "requestId": "2",
+      "plumberId": "1",
+      "date_created": 1667336019175,
+      "id": 3
+    },
+    {
+      "requestId": "1",
+      "plumberId": "1",
+      "date_created": 1667336212800,
+      "id": 4
+    },
+    {
+      "requestId": "2",
+      "plumberId": "2",
+      "date_created": 1667336216248,
+      "id": 5
+    },
+    {
+      "requestId": "3",
+      "plumberId": "1",
+      "date_created": 1667336218812,
+      "id": 6
+    },
+    {
+      "requestId": "5",
+      "plumberId": "1",
+      "date_created": 1667336510615,
+      "id": 7
+    },
+    {
+      "requestId": "6",
+      "plumberId": "1",
+      "date_created": 1667398262970,
+      "id": 8
+    },
+    {
+      "requestId": "7",
+      "plumberId": "2",
+      "date_created": 1667398340617,
+      "id": 9
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2021-08-27"
+    },
+    {
+      "id": 2,
+      "description": "hair stuck in drain",
+      "address": "42 knob road",
+      "budget": 200,
+      "neededBy": "2022-08-27"
+    },
+    {
+      "id": 3,
+      "description": "there's a snake in the toilet",
+      "address": "123 my street",
+      "budget": 500,
+      "neededBy": "2022-04-04"
+    },
+    {
+      "description": "kitchen sink install",
+      "address": "765 mama drive",
+      "budget": "200",
+      "neededBy": "2022-11-23",
+      "id": 4
+    },
+    {
+      "description": "big poop in potty",
+      "address": "342 Magic Lane",
+      "budget": "234",
+      "neededBy": "2022-11-20",
+      "id": 5
+    },
+    {
+      "description": "Alligator in Bathtub",
+      "address": "134 Jason St",
+      "budget": "300",
+      "neededBy": "2022-11-15",
+      "id": 6
+    },
+    {
+      "description": "Another alligator in bathtub",
+      "address": "234 Jason St",
+      "budget": "300",
+      "neededBy": "2022-11-08",
+      "id": 7
+    }
+  ]
+}

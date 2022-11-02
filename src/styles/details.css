@@ -1,0 +1,37 @@
+#container {
+    width: 750px;
+    margin: 20px;
+}
+
+.field{
+    display:flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.serviceForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.request_header {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.serviceRequests {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.button {
+    margin: 1.5rem 2rem 1rem 0rem;
+    padding: 0.5rem;
+    background-color: rgb(80, 47, 172);
+    color: gainsboro;
+    font-size: 1rem;
+    width: fit-content;
+}

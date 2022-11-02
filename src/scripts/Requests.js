@@ -1,7 +1,7 @@
-import { getRequests, saveCompletion } from "./dataAccess.js"
+import { getRequests } from "./dataAccess.js"
 import { deleteRequest } from "./dataAccess.js"
 import { getPlumbers } from "./dataAccess.js"
-import { completeRequest } from "./dataAccess.js"
+import { saveCompletion } from "./dataAccess.js"
 
 
 const convertRequestToHTML = (request) => {

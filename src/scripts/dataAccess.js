@@ -44,6 +44,33 @@ export const sendRequest = (userServiceRequest) => {
         })
 }
 
+export const updateRequest = entry => {
+    return fetch(`${API}/requests/${entry.id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(entry)
+    })
+  };
+
+// export const updateRequest = (requestObject) => {
+//     const fetchOptions = {
+//         method: "PUT",
+//         headers: {
+//             "Content-Type": "application/json"
+//         },
+//         body: JSON.stringify(requestObject)
+//     }
+
+
+//     return fetch(`${API}/requests/${requestObject.id}`, fetchOptions)
+//         .then(response => response.json())
+//         .then(() => {
+//             mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
+//         })
+// }
+
 export const deleteRequest = (id) => {
     return fetch(`${API}/requests/${id}`, { method: "DELETE" })
         .then(
